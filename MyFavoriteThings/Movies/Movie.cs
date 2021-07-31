@@ -18,7 +18,15 @@ namespace MyFavoriteThings
 
         public void Experience()
         {
-            Console.WriteLine($"The answer to if I watched {Name} is {Watched}");
+            if (Watched)
+            {
+                Console.WriteLine($"I have watched {Name}");
+            }
+            else
+            {
+                Console.WriteLine($"I have never watched {Name}");
+            }
+            
         }
     }
 }

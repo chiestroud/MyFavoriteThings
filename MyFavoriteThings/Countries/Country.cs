@@ -11,7 +11,7 @@ namespace MyFavoriteThings
         public string Name { get; set; }
         public string Location { get; set; }
 
-        public void Travel()
+        public virtual void Travel()
         {
             Console.WriteLine($"I am going to {Name}");
         }
